@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "646807036a637019a527b84c"
+  },
+  "username": "john.doe",
+  "email": "john.doe@example.com",
+  "password": "password123",
+  "avatar": "https://example.com/avatar1.jpg",
+  "roles": [
+    "user"
+  ]
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b84d"
+  },
+  "username": "jane.smith",
+  "email": "jane.smith@example.com",
+  "password": "password456",
+  "avatar": "https://example.com/avatar2.jpg",
+  "roles": [
+    "user"
+  ]
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b84e"
+  },
+  "username": "david.wilson",
+  "email": "david.wilson@example.com",
+  "password": "password789",
+  "avatar": "https://example.com/avatar3.jpg",
+  "roles": [
+    "user"
+  ]
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b84f"
+  },
+  "username": "emily.brown",
+  "email": "emily.brown@example.com",
+  "password": "password000",
+  "avatar": "https://example.com/avatar4.jpg",
+  "roles": [
+    "user"
+  ]
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b850"
+  },
+  "username": "michael.jones",
+  "email": "michael.jones@example.com",
+  "password": "password111",
+  "avatar": "https://example.com/avatar5.jpg",
+  "roles": [
+    "user"
+  ]
+}]

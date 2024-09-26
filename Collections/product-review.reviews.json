@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "646807036a637019a527b851"
+  },
+  "product_id": "P0001",
+  "user_id": {
+    "$oid": "646807036a637019a527b84c"
+  },
+  "rating": 4,
+  "content": "Máy chạy mượt mà, rất đáng đồng tiền bát gạo.",
+  "created_at": {
+    "$date": "2023-05-02T10:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-02T10:00:00.000Z"
+  },
+  "helpful_votes": 10,
+  "unhelpful_votes": 2
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b852"
+  },
+  "product_id": "P0002",
+  "user_id": {
+    "$oid": "646807036a637019a527b84d"
+  },
+  "rating": 5,
+  "content": "Pin hơi kém, dùng được khoảng 5 tiếng. Ngoài ra, mọi thứ đều ổn.",
+  "created_at": {
+    "$date": "2023-05-03T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-03T12:00:00.000Z"
+  },
+  "helpful_votes": 8,
+  "unhelpful_votes": 1
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b853"
+  },
+  "product_id": "P0003",
+  "user_id": {
+    "$oid": "646807036a637019a527b84e"
+  },
+  "rating": 3,
+  "content": "Màn hình đẹp, nhưng hiệu năng hơi yếu. ",
+  "created_at": {
+    "$date": "2023-05-04T14:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-04T14:30:00.000Z"
+  },
+  "helpful_votes": 5,
+  "unhelpful_votes": 3
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b854"
+  },
+  "product_id": "P0004",
+  "user_id": {
+    "$oid": "646807036a637019a527b84f"
+  },
+  "rating": 5,
+  "content": "Máy rất đẹp, cấu hình mạnh, mình rất hài lòng.",
+  "created_at": {
+    "$date": "2023-05-05T16:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-05T16:15:00.000Z"
+  },
+  "helpful_votes": 12,
+  "unhelpful_votes": 0
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b855"
+  },
+  "product_id": "P0005",
+  "user_id": {
+    "$oid": "646807036a637019a527b850"
+  },
+  "rating": 4,
+  "content": "Mình rất hài lòng với máy này, thiết kế đẹp, hiệu năng tốt, phù hợp với nhu cầu của mình.",
+  "created_at": {
+    "$date": "2023-05-06T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-06T18:00:00.000Z"
+  },
+  "helpful_votes": 7,
+  "unhelpful_votes": 1
+}]

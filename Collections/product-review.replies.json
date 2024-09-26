@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "646807036a637019a527b856"
+  },
+  "review_id": {
+    "$oid": "646807036a637019a527b851"
+  },
+  "user_id": {
+    "$oid": "646807036a637019a527b84d"
+  },
+  "content": "Cảm ơn bạn đã chia sẻ đánh giá. Máy chạy mượt mà, rất đáng đồng tiền bát gạo.",
+  "created_at": {
+    "$date": "2023-05-02T10:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-02T10:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b857"
+  },
+  "review_id": {
+    "$oid": "646807036a637019a527b852"
+  },
+  "user_id": {
+    "$oid": "646807036a637019a527b84e"
+  },
+  "content": "Mình cũng đang dùng máy này, rất hài lòng về hiệu năng.",
+  "created_at": {
+    "$date": "2023-05-03T12:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-03T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b858"
+  },
+  "review_id": {
+    "$oid": "646807036a637019a527b853"
+  },
+  "user_id": {
+    "$oid": "646807036a637019a527b84f"
+  },
+  "content": "Pin hơi kém, dùng được khoảng 5 tiếng. Ngoài ra, mọi thứ đều ổn.",
+  "created_at": {
+    "$date": "2023-05-04T14:30:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-04T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b859"
+  },
+  "review_id": {
+    "$oid": "646807036a637019a527b854"
+  },
+  "user_id": {
+    "$oid": "646807036a637019a527b850"
+  },
+  "content": "Bạn nên cân nhắc mua máy khác nếu bạn cần thời lượng pin lâu hơn.",
+  "created_at": {
+    "$date": "2023-05-05T16:15:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-05T16:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "646807036a637019a527b85a"
+  },
+  "review_id": {
+    "$oid": "646807036a637019a527b855"
+  },
+  "user_id": {
+    "$oid": "646807036a637019a527b84c"
+  },
+  "content": "Mình rất hài lòng với máy này, thiết kế đẹp, hiệu năng tốt, phù hợp với nhu cầu của mình.",
+  "created_at": {
+    "$date": "2023-05-06T18:00:00.000Z"
+  },
+  "updated_at": {
+    "$date": "2023-05-06T18:00:00.000Z"
+  }
+}]

@@ -1,0 +1,65 @@
+[{
+  "_id": "P0001",
+  "name": "Laptop Dell Inspiron 14 5000",
+  "description": "Laptop đa năng, phù hợp cho học sinh, sinh viên với thiết kế đẹp mắt, hiệu năng ổn định, thời lượng pin tốt.",
+  "category": "Laptop",
+  "images": [
+    "https://laptop88.vn/media/news/2607_dell-inspiron-14-5000-4.jpg",
+    "https://laptop88.vn/media/news/2607_dell-inspiron-14-5000-4.jpg"
+  ],
+  "rating": 4.2,
+  "total_ratings": 210,
+  "reviews": []
+},
+{
+  "_id": "P0002",
+  "name": "Laptop HP Envy x360 13",
+  "description": "Laptop 2 trong 1, màn hình cảm ứng, thiết kế đẹp mắt, hiệu năng mạnh mẽ, phù hợp cho học tập và giải trí.",
+  "category": "Laptop",
+  "images": [
+    "https://cdn.tgdd.vn/Products/Images/44/296789/Kit/hp-envy-x360-13-bf0090tu-i7-76b13pa-note.jpg",
+    "https://cdn.tgdd.vn/Products/Images/44/296789/Kit/hp-envy-x360-13-bf0090tu-i7-76b13pa-note.jpg"
+  ],
+  "rating": 4.5,
+  "total_ratings": 180,
+  "reviews": []
+},
+{
+  "_id": "P0003",
+  "name": "Laptop Acer Aspire 5",
+  "description": "Laptop đa năng, phù hợp cho học sinh, sinh viên và dân văn phòng với cấu hình ổn định, giá cả hợp lý.",
+  "category": "Laptop",
+  "images": [
+    "https://cdn2.fptshop.com.vn/unsafe/384x0/filters:quality(100)/2021_2_25_637498460858492771_acer-aspire-a514-54-bac-1.jpg",
+    "https://cdn2.fptshop.com.vn/unsafe/384x0/filters:quality(100)/2021_2_25_637498460858492771_acer-aspire-a514-54-bac-1.jpg"
+  ],
+  "rating": 4.1,
+  "total_ratings": 240,
+  "reviews": []
+},
+{
+  "_id": "P0004",
+  "name": "Laptop ASUS VivoBook 15",
+  "description": "Laptop mỏng nhẹ, thiết kế đẹp mắt, hiệu năng ổn định, phù hợp cho học sinh, sinh viên và dân văn phòng di động.",
+  "category": "Laptop",
+  "images": [
+    "https://cdn.tgdd.vn/Products/Images/44/311178/Slider/vi-vn-asus-vivobook-go-15-e1504fa-r5-nj776w-slider-1.jpg",
+    "https://cdn.tgdd.vn/Products/Images/44/311178/Slider/vi-vn-asus-vivobook-go-15-e1504fa-r5-nj776w-slider-1.jpg"
+  ],
+  "rating": 4.3,
+  "total_ratings": 200,
+  "reviews": []
+},
+{
+  "_id": "P0005",
+  "name": "Laptop MSI Modern 14",
+  "description": "Laptop mỏng nhẹ, thiết kế sang trọng, hiệu năng mạnh mẽ, phù hợp cho người dùng di động.",
+  "category": "Laptop",
+  "images": [
+    "https://cdn.tgdd.vn/Products/Images/44/266898/Slider/vi-vn-msi-modern-14-b11mou-i3-1027vn-1.jpg",
+    "https://cdn.tgdd.vn/Products/Images/44/266898/Slider/vi-vn-msi-modern-14-b11mou-i3-1027vn-1.jpg"
+  ],
+  "rating": 4.4,
+  "total_ratings": 170,
+  "reviews": []
+}]

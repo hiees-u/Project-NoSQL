@@ -1,0 +1,6 @@
+@DoAnNoSQL_HostAddress = http://localhost:5174
+
+GET {{DoAnNoSQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

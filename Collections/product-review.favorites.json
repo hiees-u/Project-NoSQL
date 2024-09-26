@@ -1,0 +1,49 @@
+[{
+  "_id": "favorite001",
+  "user_id": "646807036a637019a527b84c",
+  "products": [
+    "P0001",
+    "P0002"
+  ],
+  "created_at": "2024-09-23",
+  "updated_at": "2024-09-23"
+},
+{
+  "_id": "favorite002",
+  "user_id": "646807036a637019a527b84d",
+  "products": [
+    "P0003"
+  ],
+  "created_at": "2024-09-23",
+  "updated_at": "2024-09-23"
+},
+{
+  "_id": "favorite003",
+  "user_id": "646807036a637019a527b84e",
+  "products": [
+    "P0002",
+    "P0005"
+  ],
+  "created_at": "2024-09-23",
+  "updated_at": "2024-09-23"
+},
+{
+  "_id": "favorite004",
+  "user_id": "646807036a637019a527b84f",
+  "products": [
+    "P0001",
+    "P0004"
+  ],
+  "created_at": "2024-09-23",
+  "updated_at": "2024-09-23"
+},
+{
+  "_id": "favorite005",
+  "user_id": "646807036a637019a527b850",
+  "products": [
+    "P0003",
+    "P0005"
+  ],
+  "created_at": "2024-09-23",
+  "updated_at": "2024-09-23"
+}]

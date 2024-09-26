@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\DoAnNoSQL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\doannosql\\doannosql\\controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\doannosql\\doannosql\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepliesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DoAnNoSQL\\DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DoAnNoSQL\\DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwEIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:26:32.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\DoAnNoSQL\\DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\DoAnNoSQL\\DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:13:07.181Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

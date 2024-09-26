@@ -1,0 +1,25 @@
+[{
+  "_id": "P0001",
+  "average_rating": 4.2,
+  "total_reviews": 210
+},
+{
+  "_id": "P0002",
+  "average_rating": 4.5,
+  "total_reviews": 180
+},
+{
+  "_id": "P0003",
+  "average_rating": 4.1,
+  "total_reviews": 240
+},
+{
+  "_id": "P0004",
+  "average_rating": 4.3,
+  "total_reviews": 200
+},
+{
+  "_id": "P0005",
+  "average_rating": 4.4,
+  "total_reviews": 170
+}]
