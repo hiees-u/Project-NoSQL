@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
-import { LoginRequest, LoginResponse, LoginService } from './login.service';
+import { LoginService } from './login.service';
 import { Router } from '@angular/router';
+import { LoginRequest } from '../../../module/LoginRequest.module';
+import { LoginResponse } from '../../../module/LoginResponse.module';
 
 @Component({
   selector: 'app-login',

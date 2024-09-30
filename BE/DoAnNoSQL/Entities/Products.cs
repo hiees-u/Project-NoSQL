@@ -12,6 +12,9 @@ namespace DoAnNoSQL.Entities
         [BsonElement("name"), BsonRepresentation(BsonType.String)]
         public string? name { get; set; }
 
+        [BsonElement("price"), BsonRepresentation(BsonType.Int32)]
+        public int? price { get; set; }
+
         [BsonElement("description"), BsonRepresentation(BsonType.String)]
         public string? description { get; set; }
 

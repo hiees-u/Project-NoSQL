@@ -1,16 +1,8 @@
 import { Observable } from 'rxjs';
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
-export interface LoginRequest {
-  email: string;
-  password: string;
-}
-
-export interface LoginResponse {
-  message: string;
-  _id: string;
-}
+import { LoginRequest } from '../../../module/LoginRequest.module';
+import { LoginResponse } from '../../../module/LoginResponse.module';
 
 @Injectable({
   providedIn: 'root',
