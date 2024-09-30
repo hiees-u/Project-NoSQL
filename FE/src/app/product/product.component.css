@@ -17,7 +17,7 @@ body {
 .card {
   position: relative;
   width: 320px;
-  height: 480px;
+  height: 440px;
   background: #191919;
   border-radius: 20px;
   overflow: hidden;
@@ -51,12 +51,13 @@ body {
 
 .card .imgBox {
   position: relative;
-  width: 100%;
+  width: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
   z-index: 1;
+  margin: auto;
 }
 /*
 .card .imgBox img {
@@ -116,6 +117,15 @@ body {
 }
 
 .mouse {
-  height: 300px;
-  width: auto;
+  height: 270px;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.buy {
+  transition: all .5s ease;
+}
+
+.buy:hover {
+  font-weight: 600;
 }

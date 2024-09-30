@@ -15,12 +15,13 @@ import { ProductComponent } from './product/product.component';
     AppComponent,
     HomeComponent,
     ProductComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     UserModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [
     Router

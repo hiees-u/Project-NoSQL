@@ -8,4 +8,12 @@ import { Product } from '../../module/product.module';
 })
 export class ProductComponent {
   @Input() product!: Product;
+
+  truncateName(name: string):string {
+    if(name.length > 22)
+    {
+      return name.substring(0, 20) + '...';
+    }
+    return name;
+  }
 }

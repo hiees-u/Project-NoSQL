@@ -1,0 +1,11 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-item {
+    margin: 20px 40px;
+}
