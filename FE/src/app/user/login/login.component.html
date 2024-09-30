@@ -1,0 +1,32 @@
+<div class="login-container">
+	<h2>Đăng Nhập</h2>
+	
+	<form (ngSubmit)="onLogin()" #loginForm="ngForm">
+	  <div class="form-group">
+		<label for="email">Email:</label>
+		<input
+		  type="email"
+		  id="email"
+		  name="email"
+		  [(ngModel)]="email"
+		  required
+		  placeholder="Nhập email của bạn"
+		/>
+	  </div>
+  
+	  <div class="form-group">
+		<label for="password">Password:</label>
+		<input
+		  type="password"
+		  id="password"
+		  name="password"
+		  [(ngModel)]="password"
+		  required
+		  placeholder="Nhập mật khẩu của bạn"
+		/>
+	  </div>
+  
+	  <button type="submit" class="button__text">Log In Now</button>
+	</form>
+  </div>
+  

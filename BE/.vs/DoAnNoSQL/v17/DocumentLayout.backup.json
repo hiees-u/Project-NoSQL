@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:41:35.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Program.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T17:43:34.322Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
