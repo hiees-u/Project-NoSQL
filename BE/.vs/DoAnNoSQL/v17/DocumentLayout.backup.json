@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\entities\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Entities\\Users.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Entities\\Users.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Entities\\Users.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Entities\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:32:28.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Products.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Entities\\Products.cs",
               "RelativeDocumentMoniker": "DoAnNoSQL\\Entities\\Products.cs",
@@ -49,7 +66,7 @@
               "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "DoAnNoSQL\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T15:35:03.505Z",
               "EditorCaption": ""
@@ -62,22 +79,23 @@
               "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\UsersController.cs",
               "RelativeToolTip": "DoAnNoSQL\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T18:41:35.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Program.cs",
               "RelativeDocumentMoniker": "DoAnNoSQL\\Program.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Program.cs",
               "RelativeToolTip": "DoAnNoSQL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T17:43:34.322Z"
+              "WhenOpened": "2024-09-29T17:43:34.322Z",
+              "EditorCaption": ""
             }
           ]
         }

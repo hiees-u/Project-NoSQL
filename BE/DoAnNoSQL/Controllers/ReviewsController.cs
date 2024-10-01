@@ -1,6 +1,7 @@
 ﻿using DoAnNoSQL.Data;
 using DoAnNoSQL.Entities;
 using DoAnNoSQL.ModelView;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -27,6 +28,7 @@ namespace DoAnNoSQL.Controllers
         }
 
         [HttpPost("Create Reviews")]
+        [Authorize]
         public async Task<ActionResult<Reviews>> Post([FromBody] ReviewsCreateModel model)
         {
             if (!model.isValid())

@@ -1,6 +1,7 @@
 ﻿using DoAnNoSQL.Data;
 using DoAnNoSQL.Entities;
 using DoAnNoSQL.ModelView;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
@@ -27,7 +28,8 @@ namespace DoAnNoSQL.Controllers
             return await _replies.Find(FilterDefinition<Replies>.Empty).ToListAsync();
         }
 
-        [HttpPost] 
+        [HttpPost]
+        [Authorize]
         public async Task<ActionResult<Replies>> Post([FromBody] RepliesCreateModel model)
         {
             if(!model.IsValid())

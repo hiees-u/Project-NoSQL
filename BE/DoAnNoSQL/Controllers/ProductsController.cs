@@ -1,12 +1,13 @@
 ﻿using DoAnNoSQL.Data;
 using DoAnNoSQL.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
 namespace DoAnNoSQL.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
         private readonly IMongoCollection<Products> _product;

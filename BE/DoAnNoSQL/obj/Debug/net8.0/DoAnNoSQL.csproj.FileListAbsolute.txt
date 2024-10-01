@@ -135,3 +135,11 @@ C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\obj\Debug\net8.0\refint\DoAnNoS
 C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\obj\Debug\net8.0\DoAnNoSQL.pdb
 C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\obj\Debug\net8.0\DoAnNoSQL.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\obj\Debug\net8.0\ref\DoAnNoSQL.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\ProjectNoSQL\BE\DoAnNoSQL\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

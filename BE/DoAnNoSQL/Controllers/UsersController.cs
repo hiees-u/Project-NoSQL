@@ -1,9 +1,14 @@
 ﻿using DoAnNoSQL.Data;
 using DoAnNoSQL.Entities;
 using DoAnNoSQL.ModelView;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace DoAnNoSQL.Controllers
 {
@@ -13,12 +18,15 @@ namespace DoAnNoSQL.Controllers
     {
         private readonly IMongoCollection<Users> _users;
 
+        private readonly string _secretKey = "YourVeryLongSecretKeyOfAtLeast32Characters";
+
         public UsersController(MongoDbService mongoDbService)
         {
             _users = mongoDbService.Database.GetCollection<Users>("Users");
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IEnumerable<Users>> Get()
         {
             return await _users.Find(FilterDefinition<Users>.Empty).ToListAsync();
@@ -41,7 +49,13 @@ namespace DoAnNoSQL.Controllers
 
             if (user != null && user.password!.Equals(loginModel.password))
             {
-                return Ok(new {Message = "Login successful", user._id});
+                var tokenString = GenerateJwtToken(user.username!);
+                return Ok(new
+                {
+                    Message = "Login successful",
+                    userId = user._id,
+                    Token = tokenString
+                });
             }
             return BadRequest("Invalid username or password.");
         }
@@ -73,6 +87,22 @@ namespace DoAnNoSQL.Controllers
             await _users.InsertOneAsync(user);
 
             return Ok();
+        }
+
+        private string GenerateJwtToken(string userName) {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.UTF8.GetBytes(_secretKey);
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new System.Security.Claims.ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, userName)
+                }),
+                Expires = DateTime.UtcNow.AddHours(1),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
     }
 }
