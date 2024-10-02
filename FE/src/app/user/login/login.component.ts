@@ -24,8 +24,8 @@ export class LoginComponent {
     const observer = {
       next: (response: LoginResponse) => {
         console.log('Đăng nhập thành công:', response.message);
-        console.log('User ID:', response._id);
-        sessionStorage.setItem('userId', response._id.toString());
+        // Lưu token vào localStorage
+        localStorage.setItem('token', response.token);
         this.router.navigate(['/home']);
       },
       error: (error: any) => {

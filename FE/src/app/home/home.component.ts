@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Product } from '../../module/product.module';
 import { ProductService } from '../product/product.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -12,15 +13,24 @@ export class HomeComponent {
 
   products: Product[] = [];
 
-  constructor(private productService: ProductService) {}
+  showProduct_detail: boolean = false; 
+
+  constructor(private productService: ProductService, private router: Router) {}
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe(
-      (date) => {
-        this.products = date;
+      (data) => {
+        this.products = data;
       }, (error) => {
         console.log('Lỗi khi lấy dữ liệu sản phẩm', error);
       }
     )
+  }
+
+  isShowProductDetail(product: Product) {
+    this.showProduct_detail = !this.showProduct_detail;
+    const jsonData = JSON.stringify(product);
+
+    this.router.navigate(['/product-detail', encodeURIComponent(jsonData)]);
   }
 }

@@ -1,8 +1,10 @@
-<p>id user {{ userId }}</p>
-
-<div class="products">
-  <app-product class="product-item"
-    *ngFor="let product of products"
-    [product]="product"
-  ></app-product>
+<div class="content">
+  <div class="products">
+    <app-product
+      class="product-item"
+      *ngFor="let product of products"
+      [product]="product"
+      (click)="isShowProductDetail(product)"
+    ></app-product>
+  </div>
 </div>

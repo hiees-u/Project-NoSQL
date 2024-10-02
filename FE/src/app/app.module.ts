@@ -9,13 +9,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { Router } from '@angular/router';
 import { ProductComponent } from './product/product.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ProductComponent
-    
+    ProductComponent,
+    ProductDetailComponent    
   ],
   imports: [
     BrowserModule,
