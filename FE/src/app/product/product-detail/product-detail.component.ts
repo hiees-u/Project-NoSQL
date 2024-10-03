@@ -10,6 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class ProductDetailComponent {
   product!: Product;
 
+  ratingPercentage:number = 0;
+  
   constructor(private route: ActivatedRoute, private router: Router) {
     this.route.paramMap.subscribe(params => {
       const jsonData = params.get('data');
@@ -17,8 +19,10 @@ export class ProductDetailComponent {
         this.product = JSON.parse(decodeURIComponent(jsonData));
       }
     })
-  }
 
+    this.ratingPercentage = this.product.rating * 20;
+  }
+  
   back() {
     this.router.navigate(['/home']);
   }

@@ -9,5 +9,5 @@ export interface Product {
   images: string[];
   rating: number;
   total_ratings: number;
-  reviews: Review[]; // Bạn có thể định nghĩa rõ hơn kiểu dữ liệu cho reviews nếu cần
+  reviews: Review[];
 }

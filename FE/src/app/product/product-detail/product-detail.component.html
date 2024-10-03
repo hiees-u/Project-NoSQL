@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="back" (click)="back()">
-        <i class="fa-solid fa-backward-step"></i>
-    </div>
+  <div class="back" (click)="back()">
+    <i class="fa-solid fa-backward-step"></i>
+  </div>
   <div class="heading-section">
     <h2>{{ product.name }}</h2>
   </div>
@@ -17,7 +17,47 @@
       <div class="product-dtl">
         <div class="product-info">
           <div class="reviews-counter">
-            <span>3 Reviews</span>
+            <svg style="display: none">
+              <defs>
+                <symbol id="fivestars">
+                  <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white"
+                    fill-rule="evenodd"
+                  />
+                  <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white"
+                    fill-rule="evenodd"
+                    transform="translate(24)"
+                  />
+                  <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white"
+                    fill-rule="evenodd"
+                    transform="translate(48)"
+                  />
+                  <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white"
+                    fill-rule="evenodd"
+                    transform="translate(72)"
+                  />
+                  <path
+                    d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z M0 0 h24 v24 h-24 v-24"
+                    fill="white"
+                    fill-rule="evenodd"
+                    transform="translate(96)"
+                  />
+                </symbol>
+              </defs>
+            </svg>
+            <div class="rating">
+              <div class="rating-bg" [ngStyle]="{'width': ratingPercentage + '%'}"></div>
+              <svg><use xlink:href="#fivestars" /></svg>
+            </div>
+
+            <span>{{ product.total_ratings }} Reviews</span>
           </div>
           <div class="product-price-discount">
             <span>{{ product.price }}</span

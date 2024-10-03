@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\repliescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepliesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\RepliesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T14:40:36.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
