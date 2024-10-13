@@ -1,7 +1,9 @@
 ﻿using DoAnNoSQL.Data;
+using DoAnNoSQL.DTO;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Security.Claims;
 using System.Security.Cryptography.Xml;
 using System.Text;
 
@@ -9,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Cấu hình JWT
 var key = Encoding.UTF8.GetBytes("YourVeryLongSecretKeyOfAtLeast32Characters");
+
+builder.Services.AddSingleton<Authentication>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -21,8 +25,9 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuer = false,
         ValidateAudience = false,
         ValidateLifetime = true,
+        RoleClaimType = ClaimTypes.Role,
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourVeryLongSecretKeyOfAtLeast32Characters"))
+        IssuerSigningKey = new SymmetricSecurityKey(key)
     };
 });
 

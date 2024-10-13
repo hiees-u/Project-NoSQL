@@ -1,14 +1,11 @@
 ﻿using DoAnNoSQL.Data;
+using DoAnNoSQL.DTO;
 using DoAnNoSQL.Entities;
 using DoAnNoSQL.ModelView;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
 
 namespace DoAnNoSQL.Controllers
 {
@@ -17,19 +14,39 @@ namespace DoAnNoSQL.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IMongoCollection<Users> _users;
-
-        private readonly string _secretKey = "YourVeryLongSecretKeyOfAtLeast32Characters";
+        private Authentication authentication = new Authentication();
 
         public UsersController(MongoDbService mongoDbService)
         {
+            authentication = new Authentication();
             _users = mongoDbService.Database.GetCollection<Users>("Users");
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "user")]
         public async Task<IEnumerable<Users>> Get()
         {
             return await _users.Find(FilterDefinition<Users>.Empty).ToListAsync();
+        }
+
+        [HttpGet("Get by Id")]
+        [Authorize(Roles = "user")]
+        public async Task<IActionResult> getuserByIdJWT()
+        {
+            string userId = authentication.GetUserIdFromToken( //get id user JWT
+                        HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "")
+                    );
+            var filter = Builders<Users>.Filter.Eq(u => u._id, userId);
+
+            // Retrieve the user from the database
+            var user = await _users.Find(filter).FirstOrDefaultAsync();
+
+            if (user == null)
+            {
+                return NotFound(); // Return a 404 Not Found response if the user doesn't exist
+            }
+
+            return Ok(user);
         }
 
         [HttpPost("Login")]
@@ -49,7 +66,7 @@ namespace DoAnNoSQL.Controllers
 
             if (user != null && user.password!.Equals(loginModel.password))
             {
-                var tokenString = GenerateJwtToken(user.username!, user.roles!);
+                var tokenString = authentication.GenerateJwtToken(user);
                 return Ok(new
                 {
                     Message = "Login successful",
@@ -87,30 +104,6 @@ namespace DoAnNoSQL.Controllers
             await _users.InsertOneAsync(user);
 
             return Ok();
-        }
-
-        private string GenerateJwtToken(string userName, string[] roles) {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.UTF8.GetBytes(_secretKey);
-
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, userName)
-            };
-
-            foreach( var role in roles)
-            {
-                claims.Add(new Claim(ClaimTypes.Role, role));
-            }
-
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddHours(1),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
         }
     }
 }

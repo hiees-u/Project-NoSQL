@@ -211,6 +211,16 @@
   },
   {
     "ContainingType": "DoAnNoSQL.Controllers.UsersController",
+    "Method": "getuserByIdJWT",
+    "RelativePath": "api/Users/Get by Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAnNoSQL.Controllers.UsersController",
     "Method": "Login",
     "RelativePath": "api/Users/Login",
     "HttpMethod": "POST",

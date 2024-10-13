@@ -10,13 +10,15 @@ import { HomeComponent } from './home/home.component';
 import { Router } from '@angular/router';
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import { ReviewComponent } from './review/review.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProductComponent,
-    ProductDetailComponent    
+    ProductDetailComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,

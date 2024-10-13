@@ -1,6 +1,6 @@
 export interface Review {
-  userId: string;
+  user_name: string;
   rating: number;
-  comment: string;
+  content: string;
   createdAt: Date;
 }
