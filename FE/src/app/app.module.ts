@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 import { ProductComponent } from './product/product.component';
 import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 import { ReviewComponent } from './review/review.component';
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ReviewComponent } from './review/review.component';
     AppRoutingModule,
     UserModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [
     Router
