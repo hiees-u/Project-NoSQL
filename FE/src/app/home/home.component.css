@@ -1,0 +1,25 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-item {
+    margin: 20px 40px;
+}
+
+.product-detail {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #a4a4a43e;
+    justify-content: center;
+    align-items: center;
+}

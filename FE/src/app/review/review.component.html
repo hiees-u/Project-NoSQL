@@ -1,0 +1,11 @@
+<div *ngIf="reviews.length > 0; else noReviews">
+  <ul>
+    <li *ngFor="let review of reviews">
+      <strong>{{ review.user_name }}:</strong> <span>{{ review.content }}</span>
+      <p>Rating: {{ review.rating }}</p>
+    </li>
+  </ul>
+</div>
+<ng-template #noReviews>
+  <p>No reviews available for this product.</p>
+</ng-template>

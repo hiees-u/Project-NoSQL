@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|c:\\users\\admin\\desktop\\projectnosql\\be\\doannosql\\modelview\\reviewscreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB0E255-E628-41DC-98E6-B4BA65BC368F}|DoAnNoSQL\\DoAnNoSQL.csproj|solutionrelative:doannosql\\modelview\\reviewscreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewsCreateModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\ModelView\\ReviewsCreateModel.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\ModelView\\ReviewsCreateModel.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\ModelView\\ReviewsCreateModel.cs",
+              "RelativeToolTip": "DoAnNoSQL\\ModelView\\ReviewsCreateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:07:24.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T09:23:04.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\ProjectNoSQL\\BE\\DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "DoAnNoSQL\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T16:20:17.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
